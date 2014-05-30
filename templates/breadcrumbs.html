@@ -1,0 +1,14 @@
+<div>
+	<div>
+		<div >
+			{% for value in list %}
+				{% if not forloop.last %}
+					<a href="{{ value.1 }}">{{ value.0 }}</a><span></span>
+				{% else %}
+					{{ value.0 }}
+					</div>
+					<div class="head">{{ value.0 }}</div>
+				{% endif %}
+			{% endfor %}
+	</div>
+</div>

@@ -1,0 +1,1 @@
+Simple breadcrumbs for django template

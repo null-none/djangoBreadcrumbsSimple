@@ -1,0 +1,8 @@
+{% load default %}
+
+
+
+{% make_list 'Главная' '/' as home %}
+{% make_list object.title None as title %}
+{% make_list home title as list %}
+{% breadcrumbs list %}
